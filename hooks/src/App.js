@@ -11,7 +11,7 @@ export default function App() {
         instructions: "To use your coupon, click the button below.",
     }
   );
-
+//  method 1
   // function spendGiftCard() {
   //   const updatedGiftCard = {...giftCard}
   //         updatedGiftCard.text = "Your coupon has been used."
@@ -20,7 +20,7 @@ export default function App() {
   //   setGiftCard(updatedGiftCard)
 
   // }
-  // or 
+  // or method 2below
   function spendGiftCard() {
         setGiftCard(prev=>{
           return{
